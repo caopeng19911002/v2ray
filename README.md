@@ -11,6 +11,8 @@ r2ray主程序安装
 
 ```bash
    sudo -i
+   apt update
+   apt upgrade
    ```
 
 ```bash
