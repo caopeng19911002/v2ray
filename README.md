@@ -24,9 +24,9 @@ yum update -y && yum install curl -y
 
 四合一加速脚本代码
 
- `
+```bash
    wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
-   `
+   ```
 
 
 优化 V2Ray
