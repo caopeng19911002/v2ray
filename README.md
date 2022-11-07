@@ -1,25 +1,35 @@
 安装方法
-git clone https://github.com/caopeng19911002/v2ray -b master
+
+```bash
+   git clone https://github.com/caopeng19911002/v2ray -b master
 cd v2ray
 chmod +x install.sh
 ./install.sh local
+   ```
 
+r2ray主程序安装
 
-2ray主程序安装
+```bash
+   sudo -i
+   ```
 
-sudo -i
-
-bash <(curl -s -L https://git.io/v2ray.sh)
+```bash
+   bash <(curl -s -L https://git.io/v2ray.sh)
+   ```
 
 如果提示 curl: command not found，请安装 Curl
 
 ubuntu/debian 系统安装 Curl 方法: 
 
-apt-get update -y && apt-get install curl -y
+```bash
+   apt-get update -y && apt-get install curl -y
+   ```
 
 centos 系统安装 Curl 方法: 
 
-yum update -y && yum install curl -y
+```bash
+   yum update -y && yum install curl -y
+   ```
 
 
 四合一加速脚本代码
