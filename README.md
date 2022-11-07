@@ -2,9 +2,9 @@
 
 ```bash
    git clone https://github.com/caopeng19911002/v2ray -b master
-cd v2ray
-chmod +x install.sh
-./install.sh local
+   cd v2ray
+   chmod +x install.sh
+   ./install.sh local
    ```
 
 r2ray主程序安装
