@@ -7,8 +7,6 @@
     
 ### 2、r2ray主程序安装：
      sudo -i
-     apt update
-     apt upgrade
      bash <(curl -s -L https://git.io/v2ray.sh)
     
 ### 如果提示 curl: command not found，请安装 Curl
